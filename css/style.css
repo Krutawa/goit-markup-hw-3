@@ -32,11 +32,13 @@ image {
   overflow: hidden;
 }
 
-/*============================================*/
+/*======================HEADER===========================*/
 .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 
 .header {
@@ -45,10 +47,10 @@ image {
   height: 72px;
 }
 
-.header-container {
+/* .header-container {
   display: flex;
   align-items: center;
-}
+} */
 
 .navigation {
   display: flex;
