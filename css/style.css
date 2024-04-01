@@ -32,20 +32,19 @@ image {
   overflow: hidden;
 }
 
-/*======================HEADER===========================*/
-.header-container {
-  width: 1158px;
+.container {
   padding: 0 15px;
   margin: 0 auto;
+}
+/*======================HEADER===========================*/
+.header-container {
+  /* width: 1158px; */
   display: flex;
   align-items: center;
 }
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  height: 72px;
-  padding: 24px 0 24px 0;
   display: block;
 }
 .navigation {
@@ -89,6 +88,7 @@ image {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .nav-link {
@@ -145,15 +145,7 @@ image {
 
 .hero {
   background-color: #2e2f42;
-  /* padding: 188px 0; */
-  display: flex;
-  align-items: center;
-}
-
-.hero-container {
   padding: 188px 0;
-  text-align: center;
-  align-items: center;
 }
 
 .hero-title {
@@ -164,8 +156,7 @@ image {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  display: flex;
-  gap: 48px;
+  margin: 0 auto;
 }
 
 .hero-button {
@@ -228,9 +219,6 @@ image {
 
 .team {
   background: #f4f4fd;
-}
-
-.team-container {
 }
 
 .team-title {
