@@ -145,12 +145,15 @@ image {
 
 .hero {
   background-color: #2e2f42;
-  padding: 188px 0;
+  /* padding: 188px 0; */
   display: flex;
   align-items: center;
 }
 
 .hero-container {
+  padding: 188px 0;
+  text-align: center;
+  align-items: center;
 }
 
 .hero-title {
@@ -161,6 +164,8 @@ image {
   text-align: center;
   color: #fff;
   max-width: 496px;
+  display: flex;
+  gap: 48px;
 }
 
 .hero-button {
@@ -183,12 +188,21 @@ image {
   background-color: #404bbf;
 }
 
-/*============================================*/
+/*===================ADVANT=========================*/
+
+.advant {
+  padding: 120px 0;
+}
+
+.advant-container {
+}
 
 .advant-title {
 }
 
 .advant-list {
+  display: flex;
+  gap: 24px;
 }
 
 .advant-list-item {
@@ -200,6 +214,7 @@ image {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .advant-text {
@@ -209,10 +224,13 @@ image {
   color: #434455;
 }
 
-/*============================================*/
+/*==================TEAM=========================*/
 
 .team {
   background: #f4f4fd;
+}
+
+.team-container {
 }
 
 .team-title {
@@ -223,6 +241,7 @@ image {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-list {
