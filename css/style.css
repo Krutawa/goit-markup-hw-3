@@ -282,7 +282,7 @@ img {
 /*=====================PORTFOLIO=======================*/
 
 .portfolio {
-  padding-top: 120px;
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
@@ -316,7 +316,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .portfolio-services {
@@ -325,6 +324,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-chapter {
@@ -337,10 +337,11 @@ img {
 .Portfolio-image {
 }
 
-/*============================================*/
+/*======================FOOTER======================*/
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -351,6 +352,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-part {
