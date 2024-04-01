@@ -83,7 +83,6 @@ image {
   color: #2e2f42;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .nav-item {
@@ -139,8 +138,6 @@ image {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding: 24px 0;
-  display: block;
 }
 
 .address-link:hover,
