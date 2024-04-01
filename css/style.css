@@ -15,7 +15,7 @@ a {
   text-decoration: none;
 }
 
-image {
+img {
   display: block;
 }
 
@@ -35,10 +35,10 @@ image {
 .container {
   padding: 0 15px;
   margin: 0 auto;
+  width: 1158px;
 }
 /*======================HEADER===========================*/
 .header-container {
-  /* width: 1158px; */
   display: flex;
   align-items: center;
 }
@@ -88,7 +88,6 @@ image {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .nav-link {
@@ -97,6 +96,7 @@ image {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
 }
 
 .nav-item .nav-link:hover,
@@ -196,7 +196,8 @@ image {
   gap: 24px;
 }
 
-.advant-list-item {
+.advant-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .advant-motivation {
